@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height:64px;
+    color: #222;
+
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+h4{
+    font-size: 20px;
+    color: #222;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+font-size: 16px;
+color: #465b52;
+margin: 15px 0 20px 0;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+}
+ 
+#header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 20px 80px;
+    background: linear-gradient(45deg, #6cb2bd, #ffffff);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+ #navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+ }
+ #navbar li a:hover{
+    color: #19d1c5;
+ }
+ #navbar li a.active{
+   color: #159990; 
+ }
+
+ #hero{
+    background-image: url(3.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+      padding: 0 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+justify-content: center;
+ }
+ #hero h4{
+    
+    padding-bottom: 15px;
+    color: #06aa9f;
+ }
+ #hero h1{
+    color:#06aa9f ;
+ }
+
+ #hero button{
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+ }
+ #hero button:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+ }
+ #features{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+ }
+ #features .fe-box{
+    
+width: 230px;
+text-align: center;
+padding: 25px 15px;
+box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+border: 2px solid #cce7d0;
+border-radius: 5px;
+margin: 15px 0;
+ }
+ #features .fe-box:hover{
+    box-shadow: 30px 30px 54px rgba(26, 27, 27, 0.1);
+
+ }
+ #features .fe-box h6{
+  padding: 100px;
+    font-size: 17px;
+    display: inline-block;
+    padding: 9px 6px 8px 6px;
+    line-height: 2px;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+ }
+ #features .fe-box:nth-child(2) h6{
+    background-color:#8be756 ;
+ }
+ #features .fe-box:nth-child(3) h6{
+    background-color:#91ffbf ;
+ }
+ #features .fe-box:nth-child(4) h6{
+    background-color:#fad59d ;
+ }
+ #features .fe-box:nth-child(5) h6{
+    background-color:#f3e962 ;
+ }
+ 
+
+ 
